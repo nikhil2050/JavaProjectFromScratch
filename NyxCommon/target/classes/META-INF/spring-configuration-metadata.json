@@ -1,0 +1,67 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx",
+      "type": "com.nikhil.nyx.util.ApplicationConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.db-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.monggo-grid-fs-chunk-size",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-content-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-port",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-request-collection",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-response-collection",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-uri-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nikhil.nyx.util.ApplicationConfig",
+      "name": "nyx.mongo-user-name",
+      "type": "java.lang.String"
+    }
+  ]
+}
