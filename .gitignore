@@ -1,2 +1,53 @@
-NyxCommonPoC/target/*
-NyxCommonPoC/.settings/*
+# This gitignore is taken from https://github.com/github/gitignore/blob/master/Java.gitignore
+
+NyxCommon/target
+NyxProject/target
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# J2ME files
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+
+# Eclipse files
+.project
+.classpath
+.metadata
+.settings
+.recommenders
+.springBeans
+Servers
+RemoteSystemsTempFiles
+
+# IntelliJ files
+.idea
+*.iml
+
+# MacOS cache files
+.DS_Store
+
+# Linux swap/backup files
+*~
+
+# Spark
+metastore_db
+
+# Others
+*.keytab
