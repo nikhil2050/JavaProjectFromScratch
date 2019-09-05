@@ -2,6 +2,7 @@
 
 NyxCommon/target
 NyxProject/target
+NyxProject/bin
 
 # Compiled class file
 *.class

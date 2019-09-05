@@ -1,4 +1,4 @@
-package com.nikhil.nyx.util;
+package com.nikhil.nyx.common.appconfig.test;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
