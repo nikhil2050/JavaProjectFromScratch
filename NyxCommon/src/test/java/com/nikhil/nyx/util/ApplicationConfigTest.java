@@ -6,6 +6,8 @@ import static org.junit.Assert.assertNull;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.nikhil.nyx.common.appconfig.ApplicationConfig;
+
 public class ApplicationConfigTest {
 	ApplicationConfig applicationConfig = new ApplicationConfig();
 	

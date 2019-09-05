@@ -1,4 +1,4 @@
-package com.nikhil.nyx.util;
+package com.nikhil.nyx.common.appconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
