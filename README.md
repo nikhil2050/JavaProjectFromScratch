@@ -8,3 +8,7 @@ Till date this project includes :
 3. **REST** controller implementation.
 4. **ApplicationConfig** implementation. Reading configs from application.configuration file
 5. **Hive Connector**. You can execute HQL queries to drop and create a table and insert and query the records.
+
+## Java 8
+
+Java 8 Stream - Filter,Map,FlatMap,Sort,Min,Max,Count,Collect
