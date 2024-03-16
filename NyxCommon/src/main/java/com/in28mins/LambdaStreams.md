@@ -37,7 +37,7 @@ main() {
     // Function accepts 1 arg and returns VOID
     Consumer<Integer>   sysoutConsumer  = System.out::println;
     
-    numbers.stream().
+    numbers.stream()
         .filter(isEvenPredicate)    // .filter(x -> x%2==0)
         .map(squaredFunction)       // .map(x -> x*x)
         .forEach(sysoutConsumer);   // forEach(System.out.println)
