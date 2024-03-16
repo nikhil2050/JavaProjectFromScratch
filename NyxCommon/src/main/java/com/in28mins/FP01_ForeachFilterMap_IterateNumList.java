@@ -2,7 +2,7 @@ package com.in28mins;
 
 import java.util.List;
 
-public class FP01_IterateNumListApproach {
+public class FP01_ForeachFilterMap_IterateNumList {
 
     static final List<Integer> NUMS = List.of(12,9,13,4,6,2,4,12,15);
 
@@ -43,7 +43,7 @@ public class FP01_IterateNumListApproach {
     private static void printEvenNumsInListFunctional(List<Integer> numbers) {
         // What to do?
         numbers.stream()
-                .filter(FP01_IterateNumListApproach :: isEven)
+                .filter(FP01_ForeachFilterMap_IterateNumList:: isEven)
                 .forEach(System.out::println);
     }
     private static boolean isEven(int number) {
@@ -67,7 +67,7 @@ public class FP01_IterateNumListApproach {
     private static void printAllNumsInListFunctional(List<Integer> numbers) {
         // What to do?
         numbers.stream()
-                .forEach(FP01_IterateNumListApproach::print2);       // This is Method Reference
+                .forEach(FP01_ForeachFilterMap_IterateNumList::print2);       // This is Method Reference
     }
     private static void print2(int number) {
         System.out.println(number);
